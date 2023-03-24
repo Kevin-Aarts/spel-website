@@ -15,10 +15,10 @@ const playerwon = document.querySelector('.board-info');
 let wonX = document.querySelector('.won-X');
 let wonO = document.querySelector('.won-O');
 const submitBtn = document.querySelector('.submit');
-let inputField = document.querySelector('.input')
-let inputField2 = document.querySelector('.input-2')
-let player1 = document.querySelector('.player1')
-let player2 = document.querySelector('.player2')
+let inputField = document.querySelector('.input');
+let inputField2 = document.querySelector('.input-2');
+let player1 = document.querySelector('.player1');
+let player2 = document.querySelector('.player2');
 submitBtn.addEventListener('click', submitName)
 function submitName() {
     console.log(inputField.value)
@@ -164,7 +164,7 @@ let botArrRandom = [
 
 
 // bot row 1
-function botdefrow1() {
+function botdefow1() {
     botArrCheckRow1.forEach(combinations => {
         const arrBot = combinations.combo;
         const botStrikeClass = combinations.botClass;
